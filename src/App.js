@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Counter from './components/Counter';
-import store from './redux/store';
 // import Dropdown from './components/Dropdown';
 // import ColorPicker from './components/ColorPicker';
 // import TodoList from './components/TodoList';
@@ -16,10 +15,6 @@ import store from './redux/store';
 // ];
 
 class App extends Component {
-  state = {
-    // todos: initialTodos,
-  };
-
   // deleteTodo = todoId => {
   //   this.setState(prevState => ({
   //     todos: prevState.todos.filter(todo => todo.id !== todoId),
